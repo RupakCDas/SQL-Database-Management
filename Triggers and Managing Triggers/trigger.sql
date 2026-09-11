@@ -5,9 +5,9 @@ CREATE TRIGGER [trigger_name]
 BEFORE | AFTER  
 INSERT | UPDATE | DELETE 
 ON [table_name]  
-FOR EACH ROW
+FOR EACH ROW | FOR EACH STATEMENT
 BEGIN
-
+ **********
 END //
 DELIMITER ;
 
@@ -41,7 +41,6 @@ INSERT INTO products (product_id, product_name, stock_quantity) VALUES
 
 -- creating the trigger
 DELIMITER //
-
 CREATE TRIGGER update_stock_after_order
 AFTER INSERT ON orders
 FOR EACH ROW
