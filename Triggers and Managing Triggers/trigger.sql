@@ -23,7 +23,6 @@ CREATE TABLE products (
     product_name VARCHAR(100),
     stock_quantity INT
 );
-
 -- Creating orders table
 CREATE TABLE orders (
     order_id INT AUTO_INCREMENT PRIMARY KEY,
