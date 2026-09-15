@@ -72,5 +72,7 @@ SELECT
 FROM 
     information_schema.VIEWS;
 -- WHERE 
-    -- TABLE_SCHEMA = 'your_database_name';
+    -- TABLE_SCHEMA = 'database_name';
 -----------------
+
+DROP VIEW OrderSummary;
